@@ -295,7 +295,7 @@ we can see that **admin1** has the password: **Best_Admin!**
 ### RECAP
 1. We took advantage of **Weak Credentials:** SSH was vulnerable to brute-force attacks due to weak passwords.
 2. We took advantage of **Misconfigured SUID Binaries:** `find` with SUID allowed privilege escalation to root.
-3. We gained **Persistence:** A hidden keylogger and systemd service maintains access and provides **Data Exfiltration**(for potentially very useful data as password of other accounts or services etc.).
+3. We gained **Persistence:** A hidden keylogger and systemd service maintains access and provides **Data Exfiltration**(for potentially very useful data such as password of other accounts or services etc.).
 
 **Note:** The demo concludes with achieving the presence of a functioning keylogger, to make it not too long, however some additional passages could have been implemented, in particular, the attacker could easily delete shell logs and auth logs to make it more difficult for a defender to spot malicious activity.
 
