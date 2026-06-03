@@ -288,7 +288,7 @@ To keep persistence of operation for the keylogger we create a systemd service w
 
 Here a screenshot of a message taken from https://webhook.site in which we can see a login attempt for the administrator account:
 
-![Screenshot](/home/kradrog/Immagini/Schermate/Webhook.png)
+![Screenshot](Webhook.png)
 
 we can see that **admin1** has the password: **Best_Admin!**
 
