@@ -219,7 +219,7 @@ After 100 key logged this way, the send() function sends the log throug an HTTP 
 
 
 ### Transfer the Keylogger
-**Note:**This command is performed on the attacker machine. 
+**Note:** This command is performed on the attacker machine. 
 - **Copy the keylogger (`EVLOG.py`) to the victim machine:**
   ```bash
   scp /home/kali/Desktop/EVLOG.py user@10.0.2.15:/home/user/Desktop
